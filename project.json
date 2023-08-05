@@ -1,10 +1,53 @@
 {
-    "name": "听见",
-    "main": "main.js",
-    "ignore": [
+    "abis": [
+        "arm64-v8a"
+    ],
+    "assets": [
+        {
+            "form": "/storage/emulated/0/脚本/click-recoder",
+            "to": "/project"
+        }
+    ],
+    "buildDir": "build",
+    "build": {
+        "build_id": null,
+        "build_number": 0,
+        "build_time": 0
+    },
+    "useFeatures": [],
+    "icon": "res/logo.png",
+    "ignoredDirs": [
         "build"
     ],
+    "launchConfig": {
+        "displaySplash": true,
+        "hideAccessibilityServices": false,
+        "hideLauncher": false,
+        "hideLogs": false,
+        "stableMode": true,
+        "volumeUpcontrol": false,
+        "permissions": [
+            "accessibility_services"
+        ],
+        "serviceDesc": "获取按键点击事件",
+        "splashIcon": "res/splashIcon.png",
+        "splashText": "记录每一个精彩瞬间"
+    },
+    "libs": [
+        "libjackpal-androidterm5.so",
+        "libjackpal-termexec2.so"
+    ],
+    "main": "main.js",
+    "name": "听见",
+    "outputPath": "/storage/emulated/0/脚本/click-recoder/build",
     "packageName": "com.helen.clickrecoder",
-    "versionName": "v0.0.1",
-    "versionCode": 1
+    "projectDirectory": "/storage/emulated/0/脚本/click-recoder",
+    "scripts": {},
+    "signingConfig": {
+        "alias": null,
+        "keystore": null
+    },
+    "sourcePath": "/storage/emulated/0/脚本/click-recoder/main.js",
+    "versionCode": 1,
+    "versionName": "0.0.2"
 }
